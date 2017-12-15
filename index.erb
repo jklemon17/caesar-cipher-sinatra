@@ -1,0 +1,18 @@
+<html>
+  <head></head>
+  <body>
+    <p>
+      <form>
+        <label>Enter Text: </label><input type='text' name='text'  float='left'/>
+        <label>Enter Shift (numeric): </label><input type='text' name='shift' float='left'/>
+        <input type='submit' value='Encrypt'/>
+      </form>
+    </p>
+    <p>
+      <%="Your encrypted text is:" if text != "" && text != nil%>
+    </p>
+    <p>
+      <%=text%>
+    </p>
+  </body>
+</html>
